@@ -1,3 +1,11 @@
 <template>
-    <input value={message}></input>
- </template>
+    <div>
+        <h2>Do you love tapletop RPG's?</h2>
+    <button id="likebutton" >YES</button>
+    </div>
+    <!--conditional code checks if the button has been clicked-->
+    <template if:true ={isbuttonclicked}>
+        <p>We do too! </p>
+    </template>
+    
+</template>
