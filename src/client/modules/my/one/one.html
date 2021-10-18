@@ -1,11 +1,14 @@
 <template>
+    <div class="buttonBackground">
     <div>
         <h2>Do you love tapletop RPG's?</h2>
     <button id="likebutton" type="button" onclick={myFunction}>YES</button>
     </div>
     <!--conditional code checks if the button has been clicked-->
     <template if:true ={isbuttonclicked}>
-       <p>we do too</p>
+        <!--this p element only renders if thhe button was clicked-->
+       <p>We do too!</p>
+       <p>We have both Dnd and Pathfinder campaign books available for use!</p>
     </template>
-    
+</div>
 </template>
